@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.active\:bg-grey-900:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+.hover\:border-4:hover {
+  border-width: 4px;
+}
+.hover\:m-0:hover {
+  margin: 0;
+}
+.focus\:border-4:focus {
+  border-width: 4px;
+}
+.focus\:m-0:focus {
+  margin: 0;
+}
+.active\:border-grey-900:active {
+  --tw-bg-opacity: 1;
+  border-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+.active\:text-grey-900:active {
+  --tw-bg-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+.active\:border-transparent:active {
+  border-color: transparent;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "REM", sans-serif;
+}
+
+.navbar-brand {
+  padding-left: 7%;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: blue;
+}
+
+.form-inline {
+  padding-right: 10%;
+}
+
+.hero-section {
+  width: 100%;
+  background: var(--color-skyblue);
+  height: 90vh;
+  transition: all 0.3s ease-in;
+}
+
+.hero-inner {
+  height: 75vh;
+}
+
+.hero-inner > div {
+  width: 50%;
+}
+
+#jumpbuttons {
+  margin: 10px 30px 10px 10px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ion-icon {
+  color: white;
+}
